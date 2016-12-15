@@ -4,7 +4,6 @@ title:  "Theano and Lasagne Installation with GPU support on Windows!"
 date:   2016-12-16 12:12:06 +1300
 categories: machine-learning theano windows gpu
 ---
-Y
 
 THEANO & LASAGNE
 -------------------------------
@@ -68,8 +67,6 @@ gcc.exe (tdm64-1) 5.1.0
 Copyright (C) 2015 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-
 ```
 
 http://tdm-gcc.tdragon.net/
@@ -120,10 +117,12 @@ pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
 # cd Theano
 
 # python setup.py develop && python setup.py install # Uncertain which works
-```
-And test it 
+
 ```
 
+And test it 
+
+```
 python -i # import theano
 
 conda list
@@ -135,7 +134,6 @@ Theano                    0.9.0.dev4                <pip>
 ### Lasagne
 
 ```
-
 pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip # lasagne
 
 python -i
@@ -144,8 +142,6 @@ import lasagne
 
 $ conda list | grep asagn
 Lasagne                   0.2.dev1                  <pip>
-
-
 
 ```
 
